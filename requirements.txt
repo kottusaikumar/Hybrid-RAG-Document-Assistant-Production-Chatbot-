@@ -1,0 +1,27 @@
+# ── Web framework ──────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic>=2.9.2
+aiofiles==24.1.0
+python-multipart>=0.0.29
+
+# ── LangChain ──────────────────────────────────────────────────────────────────
+langchain==0.3.25
+langchain-core==0.3.65
+langchain-community==0.3.24
+langchain-ollama==0.3.3
+langchain-huggingface==0.1.2
+
+# ── ML / Search ────────────────────────────────────────────────────────────────
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+rank-bm25==0.2.2
+scikit-learn==1.5.2
+torch==2.2.2
+numpy>=1.26.4
+
+# ── PDF processing ─────────────────────────────────────────────────────────────
+pdfminer.six==20231228
+
+# ── HTTP client ────────────────────────────────────────────────────────────────
+requests>=2.32.5
